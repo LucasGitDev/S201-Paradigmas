@@ -1,0 +1,13 @@
+(V) A classe Student herda da classe Person e adiciona um campo adicional para o IDdo aluno.
+(V) A classe Person tem um construtor que recebe um nome e uma idade e inicializa aspropriedades Name e Age da classe.
+(F) A classe Student substitui completamente o método PrintInfo() da classe Person emvez de estendê-lo.
+(F) A palavra-chave virtual, na declaração do método PrintInfo() na classe Person, indicaque ele não pode ser chamado.
+(V) A saída desse código será:   Name: John, Age: 25  Name: Jane, Age: 20  Student ID: 12345
+
+Justificativas:
+
+(F) A classe Student substitui completamente o método PrintInfo() da classe Person emvez de estendê-lo. ->
+É utilizado o PrintInfo da classe Person e logo em seguida também é printado o ID do estudante, logo a classe Student não substitui o método PrintInfo() da classe Person, mas sim estende o método e implementa uma nova funcionalidade.
+
+(F) A palavra-chave virtual, na declaração do método PrintInfo() na classe Person, indicaque ele não pode ser chamado. ->
+Indica na verdade que o método pode ser sobrescrito por uma classe derivada.

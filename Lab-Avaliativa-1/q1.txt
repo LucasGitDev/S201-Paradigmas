@@ -1,0 +1,12 @@
+ (F) Esse código está escrito em Go.
+ (V) O código usa um laço de repetição para varrer (iterar) os elementos do array.
+ (F) A variável sum no main não precisa ser declarada como mutável, pois não é modificada fora do loop.
+ (V) Um nome melhor para a função is_something() seria is_prime() [é primo]
+ (V) A variável array não precisar sem declarada com mut, pois o valor dela não se altera.
+
+ Justificativas:
+
+ Esse código está escrito em Go. -> Foi escrito em Rust.
+
+ A variável sum no main não precisa ser declarada como mutável, pois não é modificada fora do loop. ->
+ A variável sum no main precisa ser declarada como mutável, pois é modificada fora do loop.
